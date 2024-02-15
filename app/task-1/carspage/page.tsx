@@ -138,11 +138,11 @@ export default function CarsPage() {
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             <div className='w-full'>
                 <form onSubmit={handleSubmit}>
-                    <input type="number" placeholder='Enter Id' defaultValue={edit.id} className='border w-full py-[5px] px-[20px] my-3' />
-                    <input type="text" placeholder='Enter name' defaultValue={edit.name} className='border w-full py-[5px] px-[20px] my-3' />
-                    <input type="text" placeholder='Enter color' defaultValue={edit.color} className='border w-full py-[5px] px-[20px] my-3' />
-                    <input type="number" placeholder='Enter position' defaultValue={edit.position} className='border w-full py-[5px] px-[20px] my-3' />
-                    <input type="number" placeholder='Enter price' defaultValue={edit.price} className='border w-full py-[5px] px-[20px] my-3' />
+                    <input type="number" placeholder='Enter Id'  className='border w-full py-[5px] px-[20px] my-3' />
+                    <input type="text" placeholder='Enter name'  className='border w-full py-[5px] px-[20px] my-3' />
+                    <input type="text" placeholder='Enter color'  className='border w-full py-[5px] px-[20px] my-3' />
+                    <input type="number" placeholder='Enter position'  className='border w-full py-[5px] px-[20px] my-3' />
+                    <input type="number" placeholder='Enter price'  className='border w-full py-[5px] px-[20px] my-3' />
                     <button className='border bg-indigo-600 w-[200px] h-[40px] roun ded-[5px] text-white font-bold mx-[135px]'>save</button>
                 </form>
             </div>
